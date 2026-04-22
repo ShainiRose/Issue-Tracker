@@ -2,8 +2,8 @@
 
 A full-stack issue tracking application with authentication, issue management, dashboard stats, filtering, and status workflows.
 
-## Demo(Deployment link)
-only the frontend deploy in the versal , for the dummy data included(deploy repo- https://github.com/ShainiRose/Issue-versal)
+Demo (Deployment Link)
+Only the frontend is deployed on Vercel, using dummy data. (deploy repo- https://github.com/ShainiRose/Issue-versal)
 Deploy Link = https://isse-versal.vercel.app/
 
 ## Tech Stack
