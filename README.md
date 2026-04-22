@@ -2,6 +2,10 @@
 
 A full-stack issue tracking application with authentication, issue management, dashboard stats, filtering, and status workflows.
 
+## Demo(Deployment link)
+only the frontend deploy in the versal , for the dummy data included(deploy repo- https://github.com/ShainiRose/Issue-versal)
+Deploy Link = https://isse-versal.vercel.app/
+
 ## Tech Stack
 
 - Frontend: React, Vite, Redux Toolkit, React Router, Axios, Tailwind CSS
@@ -15,7 +19,6 @@ A full-stack issue tracking application with authentication, issue management, d
 ## Prerequisites
 
 - Node.js 18+ (recommended)
-- npm 9+ (recommended)
 - MongoDB instance (local or cloud)
 
 ## Environment Setup
@@ -24,7 +27,7 @@ Create a file named .env inside backend folder with:
 
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-PORT=5000
+PORT=your_port
 
 Notes:
 - PORT is optional (defaults to 5000).
@@ -38,7 +41,7 @@ From the project root:
    - cd backend
    - npm install
 2. Install frontend packages
-   - cd ../frontend
+   - cd frontend
    - npm install
 
 ## Running the App (Development)
@@ -76,9 +79,9 @@ Default URLs:
 2. Log in.
 3. Create issues with title, description, priority, and severity.
 4. View dashboard cards and issue list.
-5. Filter issues using search/status/priority/severity.
+5. Filter issues using search title name/status/priority/severity.
 6. Update issue status and details.
-7. View issue details and manage lifecycle actions.
+7. View issue details and manage status actions.
 
 ## API Overview
 
@@ -90,7 +93,7 @@ Base API path: /api
 ## Troubleshooting
 
 - If frontend cannot reach backend:
-  - Ensure backend is running on port 5000.
+  - Ensure backend is running on correct port 5000.
   - Check frontend proxy config in frontend/vite.config.js.
 - If MongoDB connection fails:
   - Verify MONGO_URI in backend/.env.
