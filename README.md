@@ -1,6 +1,6 @@
 # Issue Tracker
 
-A full-stack issue tracking application with authentication, issue management, dashboard stats, filtering, and status workflows.
+An issue tracking application with authentication, issue management, dashboard stats, filtering, and status management.
 
 ## Demo (Deployment Link)
 - Only the frontend is deployed on Vercel, using dummy data. (deploy repo- https://github.com/ShainiRose/Issue-versal) 
