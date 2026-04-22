@@ -93,7 +93,7 @@ Base API path: /api
 ## Troubleshooting
 
 - If frontend cannot reach backend:
-  - Ensure backend is running on correct port 5000.
+  - Ensure backend is running on correct port .
   - Check frontend proxy config in frontend/vite.config.js.
 - If MongoDB connection fails:
   - Verify MONGO_URI in backend/.env.
